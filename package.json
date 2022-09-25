@@ -4,11 +4,26 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "Icon": "vue serve ./src/components/Icon/test.vue",
+    "Avatar": "vue serve ./src/components/Avatar/test.vue",
+    "Pager": "vue serve ./src/components/Pager/test.vue",
+    "Empty": "vue serve ./src/components/Empty/test.vue",
+    "ImageLoader": "vue serve ./src/components/ImageLoader/test.vue",
+    "Contact": "vue serve ./src/components/Contact/test.vue",
+    "Menu": "vue serve ./src/components/Menu/test.vue",
+    "SiteAside": "vue serve ./src/components/SiteAside/test.vue",
+    "Layout": "vue serve ./src/components/Layout/test.vue",
+    "Loading": "vue serve ./src/components/Loading/test.vue",
+    "RightList": "vue serve ./src/views/Blog/components/RightList/RightList-test.vue"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "mockjs": "^1.1.0",
+    "querystring": "^0.2.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
